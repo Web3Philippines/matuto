@@ -1,0 +1,85 @@
+body {
+    background-color: #572DA0;
+}
+h1 {
+    font-family: sans-serif;
+    color: #fff;
+}
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.nav a:hover {
+    color: #000;
+}
+.nav i {
+    margin-right: 0.5rem;
+}
+#glossary {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#glossary h2 {
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+#glossary .glossary__container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+#glossary .glossary__container p {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+#credits {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: #fff;
+}
+#powered {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    color: #fff;
+}
+#credits a, #powered a {
+    color: #fff;
+    text-decoration: none;
+}
+#credits a:hover, #powered a:hover {
+    text-decoration: underline;
+}
+#credits p {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+#powered p {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+/* make the image vertically center */
+#powered-logo {
+    width: 150px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
