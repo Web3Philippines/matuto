@@ -6,6 +6,28 @@
 
 Matuto is a simple and effective supplementary tool for learning Web3. With Matuto, you can passively learn about Web3 every time you open a new tab in your browser. 💜💙💡
 
+## 💻 Development
+
+1. Install the packages:
+
+   ```bash
+   yarn install
+   ```
+
+2. Build the extension:
+
+   ```bash
+   yarn build
+   ```
+
+3. Turn on development mode in your browser and load the extension from the `dist` directory.
+
+> **Note**: Everytime you made changes please run `yarn build` to update the extension. Go to extension management page in your browser and reload the extension.
+>
+> We'll think of a better way to automate this process in the future.
+>
+> Firefox is not yet supported, test it only on chromium based browser such as Edge or Chrome.
+
 ## 🐛 Issues
 
 Please report any issues or bugs by [creating a new issue here](https://github.com/web3phl/matuto/issues/new/choose), also make sure you're reporting an issue that doesn't exist. Any help to improve the project would be appreciated. Thanks! 🙏✨
