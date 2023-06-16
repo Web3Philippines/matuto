@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Matuto</title>
     <style>
         body {
@@ -12,10 +13,66 @@
             font-family: sans-serif;
             color: #fff;
         }
+        .nav {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 1rem;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 1rem;
+        }
+        .nav a:hover {
+            color: #000;
+        }
+        .nav i {
+            margin-right: 0.5rem;
+        }
+        #glossary {
+            margin: 0 auto;
+            width: 80%;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        #glossary h2 {
+            font-family: sans-serif;
+            color: #fff;
+            text-align: center;
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+        #glossary .glossary__container {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0.5rem;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        #glossary .glossary__container p {
+            font-family: sans-serif;
+            color: #fff;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
-    <h1>GM Philippines</h1>
+    <h1>📖 Matuto</h1>
+    <!-- create a nav link in the top right corner for discord, github, twitter, and website -->
+    <div class="nav">
+        <a href="https://web3philippines.org/discord" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="https://github.com/web3phl" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/web3phl" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://web3philippines.org" target="_blank"><i class="fa fa-globe"></i></a>
+    </div>
+    <div id="glossary">
+        <h2>Blockchain</h2>
+        <div class="glossary__container">
+            <p>A blockchain is a decentralized, distributed, and oftentimes public, digital ledger consisting of records called blocks that is used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks.</p>
+        </div>
+    </div>
     <script defer src="script.js"></script>
 </body>
 </html>
