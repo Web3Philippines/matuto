@@ -1,0 +1,42 @@
+{
+  "name": "matuto-extension",
+  "version": "0.1.0",
+  "description": "Simple and effective supplementary tool for learning Web3.",
+  "scripts": {
+    "start": "parcel watch src/manifest.json --host localhost",
+    "build": "parcel build src/manifest.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web3phl/matuto.git"
+  },
+  "keywords": [
+    "newtab",
+    "web3",
+    "ethereum",
+    "blockchain",
+    "dapp",
+    "decentralized"
+  ],
+  "contributors": [
+    {
+      "name": "Web3 Philippines",
+      "email": "opensource@web3philippines.org",
+      "url": "https://web3philippines.org"
+    },
+    {
+      "name": "Waren Gonzaga",
+      "email": "opensource@warengonzaga.com",
+      "url": "https://warengonzaga.com"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/web3phl/matuto/issues"
+  },
+  "homepage": "https://github.com/web3phl/matuto#readme",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.8.2",
+    "parcel": "^2.8.2"
+  }
+}

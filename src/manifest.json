@@ -1,0 +1,22 @@
+{
+  "name": "Matuto",
+  "description": "Simple and effective supplementary tool for learning Web3.",
+  "version": "0.1.0",
+  "author": "Waren Gonzaga",
+  "icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_icon": "assets/icon128.png",
+    "default_title": "Matuto",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
