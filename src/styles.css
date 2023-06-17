@@ -1,5 +1,6 @@
 body {
-    background-color: #572DA0;
+    background: linear-gradient(90deg, rgba(87,45,160) 35%, rgba(1,110,234) 100%);
+    background-blend-mode: darken;
 }
 h1 {
     font-family: sans-serif;
@@ -75,11 +76,11 @@ h1 {
 }
 #powered p {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 /* make the image vertically center */
 #powered-logo {
-    width: 150px;
+    width: 125px;
     margin-left: 0.5rem;
     vertical-align: middle;
 }

@@ -22,11 +22,15 @@ Matuto is a simple and effective supplementary tool for learning Web3. With Matu
 
 3. Turn on development mode in your browser and load the extension from the `dist` directory.
 
-> **Note**: Everytime you made changes please run `yarn build` to update the extension. Go to extension management page in your browser and reload the extension.
+> **Note**: Everytime you made changes please run `yarn rebuild` to update the extension. Go to extension management page in your browser and reload the extension.
 >
 > We'll think of a better way to automate this process in the future.
 >
 > Firefox is not yet supported, test it only on chromium based browser such as Edge or Chrome.
+
+## 📖 Source
+
+Right now, some of the terms and definitions are taken from [Blocknative's Glossary](https://www.blocknative.com/glossary) with modifications. We'll add more terms and definitions in the future. Please consider contributing to this project. Thanks! 🙏✨
 
 ## 🐛 Issues
 

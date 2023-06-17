@@ -4,7 +4,8 @@
   "description": "Simple and effective supplementary tool for learning Web3.",
   "scripts": {
     "start": "parcel watch src/manifest.json --host localhost",
-    "build": "parcel build src/manifest.json"
+    "build": "parcel build src/manifest.json",
+    "rebuild": "rm -rf dist && parcel build src/manifest.json"
   },
   "repository": {
     "type": "git",
