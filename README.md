@@ -4,6 +4,8 @@
 
 [![maintainer](https://img.shields.io/badge/maintainer-OSS%20Philippines-blue.svg?logo=github&labelColor=181717&longCache=true&style=flat-square)](https://ossph.org) [![release](https://img.shields.io/github/release/web3phl/matuto.svg?logo=github&labelColor=181717&color=green&style=flat-square)](https://github.com/web3phl/matuto/releases) [![star](https://img.shields.io/github/stars/web3phl/matuto.svg?&logo=github&labelColor=181717&color=yellow&style=flat-square)](https://github.com/web3phl/matuto/stargazers) [![license](https://img.shields.io/github/license/web3phl/matuto.svg?&logo=github&labelColor=181717&style=flat-square)](https://github.com/web3phl/matuto/blob/main/license)
 
+![screenshot](src/assets/screenshot.png)
+
 Matuto is a simple and effective supplementary tool for learning Web3. With Matuto, you can passively learn about Web3 every time you open a new tab in your browser. 💜💙💡
 
 ## 💻 Development
