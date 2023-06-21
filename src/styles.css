@@ -2,9 +2,10 @@ body {
     background: linear-gradient(90deg, rgba(87,45,160) 35%, rgba(1,110,234) 100%);
     background-blend-mode: darken;
 }
-h1 {
-    font-family: sans-serif;
-    color: #fff;
+#logo {
+    position: relative;
+    left: 10px;
+    width: 150px;
 }
 .nav {
     position: absolute;
@@ -28,14 +29,18 @@ h1 {
     width: 80%;
     border-radius: 0.5rem;
     padding: 1rem;
-    margin-top: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
-#glossary h2 {
+#glossary h1 {
     font-family: sans-serif;
     color: #fff;
     text-align: center;
     font-size: 60px;
-    margin-bottom: 10px;
+    margin: 0 0 15px 0;
 }
 #glossary .glossary__container {
     background-color: rgba(0, 0, 0, 0.5);

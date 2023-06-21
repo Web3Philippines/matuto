@@ -1,5 +1,5 @@
 // Get a random technology-related photo from Unsplash API
-fetch('https://source.unsplash.com/1920x1080/?technology')
+fetch('https://source.unsplash.com/1920x1080/?web3,defi,cryptocurrency,decentralization,smart-contracts')
     .then(response => {
         // Compress the image using sharp library
         const imageUrl = response.url;
