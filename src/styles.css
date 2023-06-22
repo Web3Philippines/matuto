@@ -83,9 +83,29 @@ body {
     font-family: sans-serif;
     font-size: 14px;
 }
-/* make the image vertically center */
 #powered-logo {
     width: 125px;
     margin-left: 0.5rem;
     vertical-align: middle;
+}
+#gas-tracker {
+    position: absolute;
+    display: flex;
+    top: 50px;
+    right: 15px;
+}
+#gas-tracker p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+.gas-tracker__container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 0px 10px;
+    margin: 0 5px;
+    width: 90px;
+}
+.gas-tracker__container > p {
+    text-align: center;
 }

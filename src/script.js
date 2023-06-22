@@ -1,5 +1,5 @@
 // Get a random technology-related photo from Unsplash API
-fetch('https://source.unsplash.com/1920x1080/?web3,defi,cryptocurrency,decentralization,smart-contracts')
+fetch('https://source.unsplash.com/1920x1080/?web3,defi,decentralization,smart-contracts')
     .then(response => {
         // Compress the image using sharp library
         const imageUrl = response.url;
@@ -17,5 +17,20 @@ fetch('https://source.unsplash.com/1920x1080/?web3,defi,cryptocurrency,decentral
             document.body.style.backgroundRepeat = 'no-repeat';
             document.body.style.backgroundAttachment = 'fixed';
         };
+    })
+    .catch(error => console.error(error));
+// gas tracker
+fetch('https://api.gasprice.io/v1/estimates?countervalue=usd')
+    .then(response => response.json())
+    .then(data => {
+        const gasPrices = data.result;
+        // console.log(`Instant gas fee cap: ${gasPrices.instant.feeCap}`);
+        // console.log(`Fast gas fee cap: ${gasPrices.fast.feeCap}`);
+        // console.log(`Eco gas fee cap: ${gasPrices.eco.feeCap}`);
+        // console.log(`Base fee: ${gasPrices.baseFee}`);
+        // console.log(`ETH price: ${gasPrices.ethPrice}`);
+        document.getElementById('low-fee').innerHTML = gasPrices.eco.feeCap.toFixed(2);
+        document.getElementById('average-fee').innerHTML = gasPrices.fast.feeCap.toFixed(2);
+        document.getElementById('high-fee').innerHTML = gasPrices.instant.feeCap.toFixed(2);
     })
     .catch(error => console.error(error));
