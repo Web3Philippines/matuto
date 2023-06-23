@@ -1,4 +1,4 @@
-# Matuto [![by](https://img.shields.io/badge/by-Web3%20Philippines-7b3fe4.svg?longCache=true&style=flat-square)](https://web3philippines.org)
+# 📖 Matuto [![by](https://img.shields.io/badge/by-Web3%20Philippines-7b3fe4.svg?longCache=true&style=flat-square)](https://web3philippines.org)
 
 > **Note**: This project is still under development. Please wait for the official release.
 
@@ -6,7 +6,9 @@
 
 ![screenshot](src/assets/screenshot.png)
 
-Matuto is a simple and effective supplementary tool for learning Web3. With Matuto, you can passively learn about Web3 every time you open a new tab in your browser. 💜💙💡
+Matuto is a simple chromium-based browser extension that provides a glossary of terms and definitions related to web3, blockchain and cryptocurrencies when every time you open a new tab from your browser.
+
+It's a Filipino word which means "to learn". Which is the goal of this project, to help people learn more about web3, blockchain and cryptocurrencies. 💜💙📖
 
 ## 💻 Development
 
