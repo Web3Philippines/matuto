@@ -24,13 +24,7 @@ fetch('https://api.gasprice.io/v1/estimates?countervalue=usd')
     .then(response => response.json())
     .then(data => {
         const gasPrices = data.result;
-        // console.log(`Instant gas fee cap: ${gasPrices.instant.feeCap}`);
-        // console.log(`Fast gas fee cap: ${gasPrices.fast.feeCap}`);
-        // console.log(`Eco gas fee cap: ${gasPrices.eco.feeCap}`);
-        // console.log(`Base fee: ${gasPrices.baseFee}`);
-        // console.log(`ETH price: ${gasPrices.ethPrice}`);
-        document.getElementById('low-fee').innerHTML = gasPrices.eco.feeCap.toFixed(2);
-        document.getElementById('average-fee').innerHTML = gasPrices.fast.feeCap.toFixed(2);
-        document.getElementById('high-fee').innerHTML = gasPrices.instant.feeCap.toFixed(2);
+        document.getElementById('base-fee').innerHTML = gasPrices.baseFee.toFixed();
+        document.getElementById('price').innerHTML = gasPrices.ethPrice.toFixed();
     })
     .catch(error => console.error(error));

@@ -16,7 +16,7 @@ body {
 .nav a {
     color: #fff;
     text-decoration: none;
-    margin-left: 1rem;
+    margin-left: 2px;
 }
 .nav a:hover {
     color: #000;
@@ -114,16 +114,24 @@ body {
 }
 #gas-tracker p {
     font-family: sans-serif;
-    font-size: 14px;
     color: #fff;
+}
+#gas-tracker > a {
+    text-decoration: none;
 }
 .gas-tracker__container {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 0.5rem;
-    padding: 0px 10px;
-    margin: 0 5px;
-    width: 90px;
+    padding: 2px 10px;
+    width: 100px;
 }
-.gas-tracker__container > p {
+.gas-tracker__container p {
     text-align: center;
+}
+.gas-tracker__title {
+    font-weight: bold;
+    font-size: 14px;
+}
+.gas-tracker__price {
+    font-size: 12px;
 }
