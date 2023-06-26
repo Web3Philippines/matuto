@@ -36,6 +36,16 @@ It's a Filipino word which means "to learn". Which is the goal of this project, 
 
 Right now, some of the terms and definitions are taken from [Blocknative's Glossary](https://www.blocknative.com/glossary) with modifications. We'll add more terms and definitions in the future. Please consider contributing to this project. Thanks! 🙏✨
 
+## 🎯 Contributing
+
+Contributions are welcome, create a pull request to this repo and we will review your code. Please consider to submit your pull request to the `dev` branch. Thank you!
+
+Read the project's [contributing guide](./contributing.md) for more info.
+
+## 💬 Discussions
+
+For any questions, suggestions, ideas, or simply you want to share your experience in using this project, feel free to share and discuss it with the [community](https://github.com/web3phl/matuto/discussions)!
+
 ## 🐛 Issues
 
 Please report any issues or bugs by [creating a new issue here](https://github.com/web3phl/matuto/issues/new/choose), also make sure you're reporting an issue that doesn't exist. Any help to improve the project would be appreciated. Thanks! 🙏✨
@@ -47,3 +57,13 @@ Read the project's [code of conduct](./code_of_conduct.md).
 ## 📃 License
 
 This project is licensed under [GNU General Public License v3](https://opensource.org/licenses/GPL-3.0).
+
+## 📝 Author
+
+This project is developed and maintained by [Web3 Philippines](https://web3philippines.org) and [Open Source Software Philippines](https://ossph.org) with the help of awesome [contributors](https://github.com/web3phl/matuto/graphs/contributors).
+
+[![contributors](https://contrib.rocks/image?repo=web3phl/matuto)](https://github.com/web3phl/matuto/graphs/contributors)
+
+---
+
+Made 💻 with 💖 by [Web3 Philippines](https://web3philippines.org) and [Open Source Software Philippines](https://ossph.org) 💜💙
