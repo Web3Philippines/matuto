@@ -18,9 +18,6 @@ body {
     text-decoration: none;
     margin-left: 2px;
 }
-.nav a:hover {
-    color: #000;
-}
 .nav i {
     margin-right: 0.5rem;
 }
