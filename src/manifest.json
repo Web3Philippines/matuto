@@ -12,7 +12,6 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "permissions": ["storage"],
   "action": {
     "default_icon": "assets/icon128.png",
     "default_title": "Matuto",
