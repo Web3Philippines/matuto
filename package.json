@@ -1,7 +1,7 @@
 {
   "name": "matuto-extension",
   "version": "0.1.0",
-  "description": "Simple and effective supplementary tool for learning Web3.",
+  "description": "A simple chromium-based browser extension for learning web3 in every new tab.",
   "scripts": {
     "start": "parcel watch src/manifest.json --host localhost",
     "build": "parcel build src/manifest.json",

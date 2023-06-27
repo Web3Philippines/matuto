@@ -1,6 +1,6 @@
 {
   "name": "Matuto",
-  "description": "Simple and effective supplementary tool for learning Web3.",
+  "description": "A simple chromium-based browser extension for learning web3 in every new tab.",
   "version": "0.1.0",
   "author": "Web3 Philippines",
   "icons": {
