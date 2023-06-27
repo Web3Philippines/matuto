@@ -1,7 +1,6 @@
-// Get a random technology-related photo from Unsplash API
+// get a random technology-related photo from Unsplash API
 fetch('https://source.unsplash.com/1920x1080/?web3,defi,decentralization,smart-contracts')
     .then(response => {
-        // Compress the image using sharp library
         const imageUrl = response.url;
         const img = new Image();
         img.srcset = `${imageUrl} 1920w, ${imageUrl} 1280w, ${imageUrl} 640w`;
@@ -10,21 +9,36 @@ fetch('https://source.unsplash.com/1920x1080/?web3,defi,decentralization,smart-c
         img.onload = () => {
             const cache = caches.open('matuto-cache');
             cache.then(c => c.put(imageUrl, new Response(img)));
-            // Set the background image of the body element and make it 50% dark
             document.body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${imageUrl})`;
-            // make the background image fit to the screen without stretching it
             document.body.style.backgroundSize = 'cover';
             document.body.style.backgroundRepeat = 'no-repeat';
             document.body.style.backgroundAttachment = 'fixed';
         };
     })
     .catch(error => console.error(error));
-// gas tracker
-fetch('https://api.gasprice.io/v1/estimates?countervalue=usd')
+// gas tracker eth
+fetch('https://api.blocknative.com/gasprices/blockprices')
     .then(response => response.json())
     .then(data => {
-        const gasPrices = data.result;
-        document.getElementById('base-fee').innerHTML = gasPrices.baseFee.toFixed();
-        document.getElementById('price').innerHTML = gasPrices.ethPrice.toFixed();
+        const gasPrices = data.blockPrices[0];
+        const ethBasePrice = gasPrices.baseFeePerGas.toFixed(2);
+        const ethPriorityFee = gasPrices.estimatedPrices[1].maxPriorityFeePerGas.toFixed(2);
+        const ethMaxFee = gasPrices.estimatedPrices[1].maxFeePerGas.toFixed();
+        document.getElementById('ethBaseFee').innerHTML = ethBasePrice;
+        document.getElementById('ethPriorityFee').innerHTML = ethPriorityFee;
+        document.getElementById('ethMaxFee').innerHTML = ethMaxFee;
+    })
+    .catch(error => console.error(error));
+// gas tracker matic
+fetch('https://api.blocknative.com/gasprices/blockprices?chainid=137')
+    .then(response => response.json())
+    .then(data => {
+        const gasPrices = data.blockPrices[0];
+        const maticBasePrice = gasPrices.baseFeePerGas.toFixed(2);
+        const maticPriorityFee = gasPrices.estimatedPrices[1].maxPriorityFeePerGas.toFixed(2);
+        const maticMaxFee = gasPrices.estimatedPrices[1].maxFeePerGas.toFixed();
+        document.getElementById('maticBaseFee').innerHTML = maticBasePrice;
+        document.getElementById('maticPriorityFee').innerHTML = maticPriorityFee;
+        document.getElementById('maticMaxFee').innerHTML = maticMaxFee;
     })
     .catch(error => console.error(error));
