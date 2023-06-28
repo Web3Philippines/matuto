@@ -8,6 +8,8 @@ Matuto is a simple chromium-based browser extension that provides a glossary of 
 
 It's a Filipino word which means "to learn". Which is the goal of this project, to help people learn more about web3, blockchain and cryptocurrencies. 💜💙📖
 
+[![install](.github/assets/chrome-webstore.png)](https://chrome.google.com/webstore/detail/matuto/gbdkfpagopdnedcmmohlpmogekmfpobp)
+
 ## ⚡ Demo
 
 ![demo](.github/assets/demo.gif)
