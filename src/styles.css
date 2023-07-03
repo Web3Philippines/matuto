@@ -80,28 +80,10 @@ body {
     font-family: sans-serif;
     font-size: 14px;
 }
-#powered-logo {
+#poweredLogo {
     width: 125px;
     margin-left: 0.5rem;
     vertical-align: middle;
-}
-#partners {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-#partners p {
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 14px;
-}
-#partners img {
-    width: 80px;
-    margin: 20px 10px;
 }
 #gas-tracker {
     position: absolute;
@@ -130,4 +112,33 @@ body {
 }
 .gas-tracker__price {
     font-size: 12px;
+}
+
+/* Partner Styles */
+#partners {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#partners > h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+}
+.partner__items {
+    display: flex;
+    align-items: center;
+}
+.partner__item {
+    text-decoration: none;
+    margin-left: 10px;
+}
+.partner__logo {
+    width: 60px;
 }
