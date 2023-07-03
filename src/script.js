@@ -1,5 +1,5 @@
 // get a random technology-related photo from Unsplash API
-fetch('https://picsum.photos/1920/1080') // for some reason the source.unsplash.com is down, so I'm using picsum.photos instead
+fetch('https://source.unsplash.com/1920x1080/?web3,defi,decentralization,smart-contracts')
     .then(response => {
         const imageUrl = response.url;
         const img = new Image();
