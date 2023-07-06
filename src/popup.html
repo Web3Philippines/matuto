@@ -11,7 +11,6 @@
             color: #fff;
             padding: 10px;
         }
-        
         a {
             color: #fff;
             text-decoration: none;
@@ -23,11 +22,13 @@
             font-size: 18px;
             font-weight: bold;
             margin-bottom: -10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .version {
             font-size: 14px;
             color: #c1c1c1;
             font-weight: normal;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .img-wrapper, .sponsor {
             text-align: center;
@@ -38,6 +39,28 @@
         .links {
             font-size: 14px;
             text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .description{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .table{
+            justify-content: center;
+            display: flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 25px 0;
+        }
+        .info{
+            width: 420px;
+            text-align: center;
+        }
+        th{
+            width: 100px;
+            text-align: left;
+        }
+        .getNow{
+            color:cornflowerblue;
+            text-decoration: underline;
         }
     </style>
     <title>Matuto</title>
@@ -47,8 +70,32 @@
         <img src="assets/icon.png" alt="Icon"/>
     </div>
     <div class="title">Matuto <span class="version">v0.1.2</span></div>
-    <p>By <a href="https://web3philippines.org" target="_blank" rel="noopener">Web3 Philippines</a></p>
+    <p class="description">By <a class="description" href="https://web3philippines.org" target="_blank" rel="noopener">Web3 Philippines</a></p>
     <p class="description">A simple chromium-based browser extension for learning web3 in every new tab. 💜💙📖</p>
+    <div class="table">
+        <table>
+            <tr>
+              <th>Browser</th>
+              <th>Download</th>
+              <th class="info">Info</th>
+            </tr>
+            <tr>
+              <td>Chrome</td>
+              <td><a class="getNow" target=”_blank” href="https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp"> Get Now</a></td>
+              <td>For chromium-based browsers such as Brave, Opera, etc.</td>
+            </tr>
+            <tr>
+              <td>Edge</td>
+              <td><a class="getNow" target=”_blank” href="https://microsoftedge.microsoft.com/addons/detail/matuto/djbnlpmjbdflnjdcphaofhifcgigdbbe"> Get Now</a></td>
+              <td>For Microsoft Edge browser.</td>
+            </tr>
+            <tr>
+              <td>Firefox</td>
+              <td><a class="getNow" target=”_blank” href="https://addons.mozilla.org/en-US/firefox/addon/matuto/"> Get Now</a></td>
+              <td>For Firefox browser.</td>
+            </tr>
+          </table>
+    </div>
     <div class="links">
         <a href="https://github.com/web3phl/matuto" target="_blank" rel="noopener">
             Contribute 🤝

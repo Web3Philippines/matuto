@@ -14,6 +14,7 @@ Browser | Download | Info
 --- | --- | ---
 **Chrome** | [Get Now](https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp) | For chromium-based browsers such as Brave, Opera, etc.
 **Edge** | [Get Now](https://microsoftedge.microsoft.com/addons/detail/matuto/djbnlpmjbdflnjdcphaofhifcgigdbbe) | For Microsoft Edge browser.
+**Firefox** | [Get Now](https://addons.mozilla.org/en-US/firefox/addon/matuto/) | For Firefox browser.
 
 ## ⚡ Demo
 
