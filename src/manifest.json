@@ -1,5 +1,5 @@
 {
-  "name": "Matuto | Learn Web3 in every new tab",
+  "name": "Matuto | Learn web3 in every new tab",
   "description": "A simple chromium-based browser extension for learning web3 in every new tab.",
   "version": "0.1.2",
   "author": "Web3 Philippines",
@@ -17,5 +17,11 @@
     "default_title": "Matuto",
     "default_popup": "popup.html"
   },
-  "manifest_version": 3
+  "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "matuto@web3philippines.org",
+      "strict_min_version": "60.0"
+    }
+  }
 }
