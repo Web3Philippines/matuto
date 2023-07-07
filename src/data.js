@@ -58,6 +58,38 @@ const glossary = [
         term: "Ethereum Name Service (ENS)",
         definition: "The Ethereum Name Service (ENS) is a decentralized naming service that allows users to register human-readable domain names for their Ethereum addresses. ENS names can be used to send and receive transactions, interact with smart contracts, and resolve decentralized websites."
     },
+    {
+        term: "Non-Fungible Token (NFT)",
+        definition: "A non-fungible token (NFT) is a unique digital asset that is stored on a blockchain. NFTs are used to represent real-world items like art, music, in-game items, and videos."
+    },
+    {
+        term: "Decentralized Finance (DeFi)",
+        definition: "Decentralized finance (DeFi) is a blockchain-based form of finance that does not rely on central financial intermediaries such as brokerages, exchanges, or banks to offer traditional financial instruments, and instead utilizes smart contracts on blockchains, the most common being Ethereum."
+    },
+    {
+        term: "ERC-20",
+        definition: "ERC-20 is a technical standard used for smart contracts on the Ethereum blockchain for implementing tokens (fungible). ERC stands for Ethereum Request for Comment, and 20 is the number that was assigned to this request."
+    },
+    {
+        term: "ERC-721",
+        definition: "ERC-721 is a technical standard used for smart contracts on the Ethereum blockchain for implementing non-fungible tokens (NFTs). ERC stands for Ethereum Request for Comment, and 721 is the number that was assigned to this request."
+    },
+    {
+        term: "ERC-1155",
+        definition: "ERC-1155 is a technical standard used for smart contracts on the Ethereum blockchain for implementing both fungible and non-fungible tokens (NFTs). ERC stands for Ethereum Request for Comment, and 1155 is the number that was assigned to this request."
+    },
+    {
+        term: "ERC-4907",
+        definition: "ERC-4907 is a proposed Ethereum standard that extends ERC-721 to introduce \"owner\" and \"user\" roles. It streamlines NFT rentals with an automated \"expires\" function that enforces time-limited user roles, ending usage terms automatically without a second transaction."
+    },
+    {
+        term: "ERC-6551",
+        definition: "ERC-6551 is a new token standard for non-fungible tokens (NFTs) that enhances the functionality and value of NFTs by giving them smart contract capabilities. It suggests creating a dedicated cryptocurrency wallet for each ERC-721 token, effectively transforming NFTs into Token Bound Accounts (TBAs). With smart contract capabilities, NFTs can now hold other assets, interact with smart contracts, and have their own on-chain identity."
+    },
+    {
+        term: "ERC-4337",
+        definition: "ERC-4337 is an Ethereum standard that achieves account abstraction on the protocol without any consensus-layer changes. It makes it possible to transact and create contracts in a single contract account. ERC-4337 is a standard for Ethereum that aims to make user accounts work more like smart contracts, a phenomenon called \"account abstraction.\""
+    },
 ];
 
 // get id of term and definition
