@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
             min-width: 200px;
@@ -11,13 +13,15 @@
             color: #fff;
             padding: 10px;
         }
-        
         a {
             color: #fff;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+        .title, .version, .description, .links, #download {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .title {
             font-size: 18px;
@@ -29,34 +33,67 @@
             color: #c1c1c1;
             font-weight: normal;
         }
-        .img-wrapper, .sponsor {
+        .img-wrapper,
+        .sponsor {
             text-align: center;
         }
-        .img-wrapper > img {
+        .img-wrapper>img {
             width: 50px;
         }
         .links {
             font-size: 14px;
             text-align: center;
         }
+        #download {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        #download > span {
+            margin-right: 10px;
+            font-size: 12px;
+        }
+        #download > a {
+            margin-right: 10px;
+            font-size: 24px;
+        }
     </style>
     <title>Matuto</title>
 </head>
+
 <body>
     <div class="img-wrapper">
-        <img src="assets/icon.png" alt="Icon"/>
+        <img src="assets/icon.png" alt="Icon" />
     </div>
     <div class="title">Matuto <span class="version">v0.1.2</span></div>
-    <p>By <a href="https://web3philippines.org" target="_blank" rel="noopener">Web3 Philippines</a></p>
-    <p class="description">A simple chromium-based browser extension for learning web3 in every new tab. 💜💙📖</p>
+    <p class="description">By <a class="description" href="https://web3philippines.org" target="_blank"
+            rel="noopener">Web3 Philippines®</a></p>
+    <p class="description">A simple browser extension for learning web3 in every new tab. 💜💙📖</p>
     <div class="links">
         <a href="https://github.com/web3phl/matuto" target="_blank" rel="noopener">
-            Contribute 🤝
+            🤝 Contribute
         </a>
         <span>|</span>
         <a href="https://github.com/sponsors/web3phl" target="_blank" rel="noopener">
-            Sponsor 💖
+            💖 Sponsor
         </a>
     </div>
+    <div id="download">
+        <span>Available In:</span>
+        <a href="https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp"
+            target="_blank" rel="noopener">
+            <i class="fab fa-chrome"></i>
+        </a>
+        <a href="https://microsoftedge.microsoft.com/addons/detail/matuto/djbnlpmjbdflnjdcphaofhifcgigdbbe"
+            target="_blank" rel="noopener">
+            <i class="fab fa-edge"></i>
+        </a>
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/matuto/" target="_blank" rel="noopener">
+            <i class="fab fa-firefox"></i>
+        </a>
+    </div>
+
 </body>
+
 </html>
