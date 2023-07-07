@@ -4,7 +4,7 @@
 
 ![screenshot](src/assets/screenshot.png)
 
-Matuto is a simple chromium-based browser extension that provides a glossary of terms and definitions related to web3, blockchain and cryptocurrencies when every time you open a new tab from your browser.
+Matuto is a simple browser extension that provides a glossary of terms and definitions related to web3, blockchain and cryptocurrencies when every time you open a new tab from your browser.
 
 It's a Filipino word which means "to learn". Which is the goal of this project, to help people learn more about web3, blockchain and cryptocurrencies. 💜💙📖
 
@@ -43,8 +43,6 @@ Please visit the official documentation here: [docs.web3philippines.org/matuto](
 > **Note**: Everytime you made changes please run `yarn rebuild` to update the extension. Go to extension management page in your browser and reload the extension.
 >
 > We'll think of a better way to automate this process in the future.
->
-> Firefox is not yet supported, test it only on chromium based browser such as Edge or Chrome.
 
 ## 📖 Source
 
