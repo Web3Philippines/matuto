@@ -16,7 +16,7 @@ const glossary = [
     },
     {
         term: "Chainlink",
-        definition: "Chainlink is a decentralized oracle network that provides real-world data to smart contracts on the blockchain. Oracles are services that send data to the blockchain, which can trigger smart contract executions when predefined conditions are met. However, since blockchains can't access data outside their network, they rely on oracle services like Chainlink to provide this data. Chainlink is important in the web3 space as it enables smart contracts to interact with data outside the blockchain, expanding their potential use cases."
+        definition: "Chainlink is a decentralized oracle network that provides real-world data to smart contracts on the blockchain. Oracles are services that send data to the blockchain, which can trigger smart contract executions when predefined conditions are met. However, since blockchains can't access data outside their network, they rely on oracle services like Chainlink to provide this data."
     },
     {
         term: "Decentralized Autonomous Organization (DAO)",
@@ -80,7 +80,7 @@ const glossary = [
     },
     {
         term: "Metaverse",
-        definition: "A metaverse is an immersive, digital universe that merges real and virtual worlds, allowing people to interact, work, learn, and socialize in real time. Built on the principles of Web3, it leverages blockchain technology and decentralization for peer-to-peer interactions, offering a user-controlled environment. Users in this Web3 metaverse can truly own digital assets and control their data, providing a decentralized, interactive experience that transcends traditional boundaries of the internet."
+        definition: "A metaverse is an engaging digital universe, fueled by Web3 principles. It utilizes blockchain for decentralized, real-time interaction, enabling users to own digital assets, control their data, and enjoy a boundary-defying internet experience."
     },
     {
         term: "Non-Fungible Token (NFT)",
@@ -108,7 +108,7 @@ const glossary = [
     },
     {
         term: "Zero-Knowledge Proof",
-        definition: "A zero-knowledge proof is a cryptographic method that allows one party (the prover) to prove to another party (the verifier) that they know a value x, without conveying any information apart from the fact that they know the value x. It's a way of proving knowledge of some secret or information without revealing the information itself. This concept is used in various privacy-enhancing technologies and blockchain protocols to ensure confidentiality of data."
+        definition: "A zero-knowledge proof is a special cryptographic method where one person can prove to another that they know a secret, but without sharing any details about the secret itself. It's often used in technologies and systems like blockchain to keep data private."
     }
 ];
 
