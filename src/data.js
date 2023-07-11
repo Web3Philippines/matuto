@@ -23,6 +23,18 @@ const glossary = [
         definition: "A blockchain is a distributed database that is shared among the nodes of a computer network. Blockchains store a continuously growing historical ledger of information (e.g. accounts and transactions) into blocks."
     },
     {
+        term: "Decentralized Application (Dapp)",
+        definition: "A decentralized application, is an application built on a decentralized blockchain network using smart contracts and Web 3.0 javascript libraries. Examples for Dapps include web3 wallets, interest-bearing cryptocurrency savings accounts, and NFT marketplaces."
+    },
+    {
+        term: "Decentralized Exchange (DEX)",
+        definition: "DEX is an abbreviation for Decentralized Exchange. This type of crypto exchange enables users to transact in a direct peer-to-peer manner without any intermediary."
+    },
+    {
+        term: "Merkle Tree",
+        definition: "A Merkle tree, or hash tree, is a data structure used by blockchains to securely validate and summarize large data sets."
+    },
+    {
         term: "Smart Contract",
         definition: "A smart contract is a piece of code that executes according to it's instructions exactly like a traditional contract between two people would be executed. Smart contracts are used by developers to build decentralized applications on blockchain networks like Ethereum to enable users to permissionlessly transact in a secure way."
     },
@@ -35,12 +47,20 @@ const glossary = [
         definition: "A testnet (test network) is where developers can test protocol upgrades and smart contracts before deploying them on mainnet."
     },
     {
+        term: "Tokonomics",
+        definition: "A portmanteau of the words 'token' and 'economics,' tokenomics refers to all the aspects of a cryptocurrency that can impact the price such as total supply, vesting, and utility."
+    },
+    {
         term: "Gas",
         definition: "Gas is a unit of measurement that represents the computational effort required to complete a transaction. How much a user spends to complete a transaction is determined by the total amount of gas multiplied by the gas price."
     },
     {
         term: "Gas Fees",
         definition: "Gas fees are the fees users must pay in Ethereum's native currency, Ether (ETH), to complete a transaction. Gas fees are used to compensate miners for providing the computational work required to process and validate transactions."
+    },
+    {
+        term: "Gas Price",
+        definition: "The gas price is the amount of Ether (ETH) a user is willing to pay for every unit of gas required to complete a transaction (denominated in Gwei). Blocknative's gas estimator tool can help traders and developers optimize setting gas prices to probabilistically get transactions confirmed in the next block"
     },
     {
         term: "Metamask",
