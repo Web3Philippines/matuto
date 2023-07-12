@@ -15,7 +15,7 @@ const glossary = [
         definition: "A blockchain is a distributed database that is shared among the nodes of a computer network. Blockchains store a continuously growing historical ledger of information (e.g. accounts and transactions) into blocks."
     },
     {
-        term: "Decentralized Application (Dapp)",
+        term: "Decentralized Application (DApp)",
         definition: "A decentralized application, is an application built on a decentralized blockchain network using smart contracts and Web 3.0 javascript libraries. Examples for Dapps include web3 wallets, interest-bearing cryptocurrency savings accounts, and NFT marketplaces."
     },
     {
