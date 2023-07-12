@@ -15,6 +15,22 @@ const glossary = [
         definition: "A blockchain is a distributed database that is shared among the nodes of a computer network. Blockchains store a continuously growing historical ledger of information (e.g. accounts and transactions) into blocks."
     },
     {
+        term: "Decentralized Application (DApp)",
+        definition: "A decentralized application, is an application built on a decentralized blockchain network using smart contracts and Web 3.0 javascript libraries. Examples for Dapps include web3 wallets, interest-bearing cryptocurrency savings accounts, and NFT marketplaces."
+    },
+    {
+        term: "Decentralized Exchange (DEX)",
+        definition: "DEX is an abbreviation for Decentralized Exchange. This type of crypto exchange enables users to transact in a direct peer-to-peer manner without any intermediary."
+    },
+    {
+        term: "Merkle Tree",
+        definition: "A Merkle tree, or hash tree, is a data structure used by blockchains to securely validate and summarize large data sets."
+    },
+    {
+        term: "Smart Contract",
+        definition: "A smart contract is a piece of code that executes according to it's instructions exactly like a traditional contract between two people would be executed. Smart contracts are used by developers to build decentralized applications on blockchain networks like Ethereum to enable users to permissionlessly transact in a secure way."
+    },
+    {
         term: "Chainlink",
         definition: "Chainlink is a decentralized oracle network that provides real-world data to smart contracts on the blockchain. Oracles are services that send data to the blockchain, which can trigger smart contract executions when predefined conditions are met. However, since blockchains can't access data outside their network, they rely on oracle services like Chainlink to provide this data."
     },
@@ -27,16 +43,34 @@ const glossary = [
         definition: "Decentralized finance (DeFi) is a blockchain-based form of finance that does not rely on central financial intermediaries such as brokerages, exchanges, or banks to offer traditional financial instruments, and instead utilizes smart contracts on blockchains, the most common being Ethereum."
     },
     {
+        term: "Tokonomics",
+        definition: "A portmanteau of the words 'token' and 'economics,' tokenomics refers to all the aspects of a cryptocurrency that can impact the price such as total supply, vesting, and utility."
+    },
+    {
+        term: "Gas",
+        definition: "Gas is a unit of measurement that represents the computational effort required to complete a transaction. How much a user spends to complete a transaction is determined by the total amount of gas multiplied by the gas price."
+    },
+    {
         term: "EIP-1559",
         definition: "Also known as Ethereum Improvement Proposal 1559, EIP-1559 was part of Ethereum's London hard fork and it was deployed across the Ethereum network on August 5th, 2021. EIP-1559 introduced a Base Fee which is paid by users and is eventually burned (i.e. removed from circulation), and it replaced the current gas limit with two values: a “long-term average target” (equal to the current gas limit), and a “hard per-block cap” (twice the current gas limit)."
+
     },
     {
         term: "ERC-1155 (Multi Token Standard)",
         definition: "ERC-1155 is a technical standard used for smart contracts on the Ethereum blockchain for implementing both fungible and non-fungible tokens (NFTs). ERC stands for Ethereum Request for Comment, and 1155 is the number that was assigned to this request."
     },
     {
+        term: "Gas Price",
+        definition: "The gas price is the amount of Ether (ETH) a user is willing to pay for every unit of gas required to complete a transaction (denominated in Gwei). Blocknative's gas estimator tool can help traders and developers optimize setting gas prices to probabilistically get transactions confirmed in the next block"
+    },
+    {
+        term: "Metamask",
+        definition: "A browser extension wallet that enables users to securely store and manage digital assets on the decentralized web (Web3). It serves as a gateway to interact with blockchain networks, allowing users to connect their browsers to decentralized applications (dApps) and execute transactions. With its user-friendly interface, MetaMask facilitates seamless access to the world of cryptocurrencies, non-fungible tokens (NFTs), and decentralized finance (DeFi) applications."
+    },
+    {
         term: "ERC-20 (Token Standard)",
         definition: "ERC-20 is a technical standard used for smart contracts on the Ethereum blockchain for implementing tokens (fungible). ERC stands for Ethereum Request for Comment, and 20 is the number that was assigned to this request."
+
     },
     {
         term: "ERC-4337 (Account Abstraction)",
