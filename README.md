@@ -25,7 +25,7 @@ It's a Filipino word which means "to learn". Which is the goal of this project, 
 <details>
 <summary>Microsoft Edge</summary>
    <ol>
-      <li>Go to the Microsoft Edge addon store <a href="https://microsoftedge.microsoft.com/addons/detail/matuto/djbnlpmjbdflnjdcphaofhifcgigdbbe" rel="external">here</a>.</li>
+      <li>Go to the Microsoft Edge addon store <a href="https://microsoftedge.microsoft.com/addons/detail/matuto/djbnlpmjbdflnjdcphaofhifcgigdbbe" target="_blank">here</a>.</li>
       <li> Click "Get"</li>
       <li>Click "Add extension"</li>
       <li>In the top right corner go to: <br>
@@ -38,7 +38,7 @@ It's a Filipino word which means "to learn". Which is the goal of this project, 
 <details>
 <summary>Google Chrome</summary>
    <ol>
-      <li>Go to Chrome Web Store <a href="https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp" rel="external">here</a></li>
+      <li>Go to Chrome Web Store <a href="https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp" target="_blank">here</a></li>
       <li>Click "Add to Chrome"</li>
       <li>Click "Add extension"</li>
       <li>In the top right corner go to: <br>
@@ -51,7 +51,7 @@ It's a Filipino word which means "to learn". Which is the goal of this project, 
 <details>
 <summary>Mozilla Firefox</summary>
 <ol>
-      <li>Go to Firefox Addons <a href="https://addons.mozilla.org/en-US/firefox/addon/matuto/" rel="external">here</a></li>
+      <li>Go to Firefox Addons <a href="https://addons.mozilla.org/en-US/firefox/addon/matuto/" target="_blank">here</a></li>
       <li>Click "Add to Firefox"</li>
       <li>Click "Add"</li>
       <li>In the top right corner go to: <br>
@@ -64,7 +64,7 @@ It's a Filipino word which means "to learn". Which is the goal of this project, 
 <details>
 <summary>Brave</summary>
 <ol>
-      <li>Go to Chrome Web Store <a href="https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp" rel="external">here</a></li>
+      <li>Go to Chrome Web Store <a href="https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp" target="_blank">here</a></li>
       <li>Click "Add to Brave"</li>
       <li>Click "Add extension"</li>
       <li>In the top right corner go to "Manage extensions": <br>
