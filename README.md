@@ -10,15 +10,69 @@ It's a Filipino word which means "to learn". Which is the goal of this project, 
 
 ## 📦 Download
 
-Browser | Download | Info
---- | --- | ---
-**Chrome** | [Get Now](https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp) | For chromium-based browsers such as Brave, Opera, etc.
-**Edge** | [Get Now](https://microsoftedge.microsoft.com/addons/detail/matuto/djbnlpmjbdflnjdcphaofhifcgigdbbe) | For Microsoft Edge browser.
-**Firefox** | [Get Now](https://addons.mozilla.org/en-US/firefox/addon/matuto/) | For Firefox browser.
+| Browser     | Download                                                                                                        | Info                                                   |
+| ----------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| **Chrome**  | [Get Now](https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp) | For chromium-based browsers such as Brave, Opera, etc. |
+| **Edge**    | [Get Now](https://microsoftedge.microsoft.com/addons/detail/matuto/djbnlpmjbdflnjdcphaofhifcgigdbbe)            | For Microsoft Edge browser.                            |
+| **Firefox** | [Get Now](https://addons.mozilla.org/en-US/firefox/addon/matuto/)                                               | For Firefox browser.                                   |
 
 ## ⚡ Demo
 
 ![demo](.github/assets/demo.gif)
+
+## 💡 How to install
+
+<details>
+<summary>Microsoft Edge</summary>
+   <ol>
+      <li>Go to the Microsoft Edge addon store <a href="https://microsoftedge.microsoft.com/addons/detail/matuto/djbnlpmjbdflnjdcphaofhifcgigdbbe" rel="external">here</a>.</li>
+      <li> Click "Get"</li>
+      <li>Click "Add extension"</li>
+      <li>In the top right corner go to: <br>
+      <img src=".github/assets/howtoinstall/edge/edge4.png"></img><br>Or just paste: edge://extensions/ into a search bar and skip to step 6</li>
+      <li>Click "Manage extensions"</li>
+      <li>Enable Matuto!<br><img src=".github/assets/howtoinstall/edge/edge6.png"></img></li>
+   </ol>
+</details>
+
+<details>
+<summary>Google Chrome</summary>
+   <ol>
+      <li>Go to Chrome Web Store <a href="https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp" rel="external">here</a></li>
+      <li>Click "Add to Chrome"</li>
+      <li>Click "Add extension"</li>
+      <li>In the top right corner go to: <br>
+      <img src=".github/assets/howtoinstall/chrome/chrome4.png"></img><br> Or paste this: chrome://extensions/ into a search bar</li>
+      <li>Make sure extension is enabled<br>
+      <img src=".github/assets/howtoinstall/chrome/chrome5.png"></img></li>
+   </ol>
+</details>
+
+<details>
+<summary>Mozilla Firefox</summary>
+<ol>
+      <li>Go to Firefox Addons <a href="https://addons.mozilla.org/en-US/firefox/addon/matuto/" rel="external">here</a></li>
+      <li>Click "Add to Firefox"</li>
+      <li>Click "Add"</li>
+      <li>In the top right corner go to: <br>
+      <img src=".github/assets/howtoinstall/firefox/firefox4.png"></img><br> Or paste this: about:addons into a search bar go to step 6</li>
+      <li>Click "Manage extensions"</li>
+      <li>Make sure Matuto is enabled!</li>
+   </ol>
+</details>
+
+<details>
+<summary>Brave</summary>
+<ol>
+      <li>Go to Chrome Web Store <a href="https://chrome.google.com/webstore/detail/matuto-learn-web3-in-ever/gbdkfpagopdnedcmmohlpmogekmfpobp" rel="external">here</a></li>
+      <li>Click "Add to Brave"</li>
+      <li>Click "Add extension"</li>
+      <li>In the top right corner go to "Manage extensions": <br>
+      <img src=".github/assets/howtoinstall/brave/brave4.png"></img><br> Or paste this: brave://extensions/ into a search bar</li>
+      <li>Make sure Matuto extension is enabled!<br>
+      <img src=".github/assets/howtoinstall/brave/brave5.png"></img></li>
+   </ol>
+</details>
 
 ## 📚 Documentation
 
