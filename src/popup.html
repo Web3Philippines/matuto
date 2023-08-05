@@ -30,7 +30,7 @@
             background-color: #1b1b23;
             color: #fff;
             padding: 10px;
-            margin: 40px;
+            margin: 36px;
         }
         a {
             color: #fff;
@@ -45,7 +45,7 @@
         .description {
             font-family: 'FuturaBT-Medium', sans-serif;
         }
-        .version, #download {
+        .version, #download, #partners {
             font-family: 'FuturaBT-Book', sans-serif;
         }
         .title {
@@ -63,23 +63,24 @@
             margin-bottom: 36px;
         }
         .description-1 {
-            font-size: 24px;
+            font-size: 18px;
         }
         .description-2 {
             font-size: 16px;
+            text-align: center;
         }
         .img-wrapper,
         .sponsor {
             text-align: center;
         }
         .img-wrapper>img {
-            width: 120px;
+            width: 96px;
         }
         .links {
             font-size: 16px;
             text-align: center;
         }
-        #download {
+        #download,#partners {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -92,6 +93,16 @@
         #download > a {
             margin-right: 10px;
             font-size: 16px;
+        }
+        #partners > span {
+            margin-right: 10px;
+            font-size: 12px;
+        }
+        #partners > a {
+            margin-right: 10px;
+        }
+        .partner__logo {
+            width: 48px;
         }
     </style>
     <title>Matuto</title>
@@ -128,7 +139,19 @@
             <i class="fab fa-firefox"></i>
         </a>
     </div>
-
+    <div id="partners">
+        <span>Partners:</span>
+        <a href="https://ossph.org" target="_blank" class="partner__item">
+            <img src="assets/ossph.png" alt="OSSPH Logo" class="partner__logo">
+        </a>
+        <a href="https://www.bitskwela.com" target="_blank" class="partner__item">
+            <img src="assets/bitskwela.png" alt="Bitskwela Logo" class="partner__logo">
+        </a>
+        
+        <a href="https://www.cryptopinas.ph" target="_blank" class="partner__item">
+            <img src="assets/cryptopinas.png" alt="Crypto Pinas Logo" class="partner__logo">
+        </a>
+    </div>
 </body>
 
 </html>
