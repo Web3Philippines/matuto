@@ -13,7 +13,7 @@
     "newtab": "index.html"
   },
   "action": {
-    "default_icon": "assets/icon.png",
+    "default_icon": "assets/icon_default.png",
     "default_title": "Matuto",
     "default_popup": "popup.html"
   },
