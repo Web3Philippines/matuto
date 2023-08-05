@@ -24,9 +24,30 @@ fetch('https://api.blocknative.com/gasprices/blockprices')
         const ethBasePrice = gasPrices.baseFeePerGas.toFixed(2);
         const ethPriorityFee = gasPrices.estimatedPrices[1].maxPriorityFeePerGas.toFixed(2);
         const ethMaxFee = gasPrices.estimatedPrices[1].maxFeePerGas.toFixed();
-        document.getElementById('ethBaseFee').innerHTML = ethBasePrice;
-        document.getElementById('ethPriorityFee').innerHTML = ethPriorityFee;
-        document.getElementById('ethMaxFee').innerHTML = ethMaxFee;
+        const pricesArray = [ethBasePrice, ethPriorityFee, ethMaxFee];
+// select ethereum prices container
+        const ethContainer = document.querySelector('#eth-tracker__container');
+// select each paragraph except first child which is the title
+        const ethParagraphs = ethContainer.querySelectorAll('p:not(:first-child)');
+// loop through paragraphs and add span to each with appropriate prices based on the pricesArray values
+        ethParagraphs.forEach((p, index) => {
+            switch(index) {
+                case 0: {
+                    p.textContent = '⛽ Base: ' + pricesArray[index];
+                    break;
+                }
+                case 1: {
+                    p.textContent = '⚡ Priority: ' + pricesArray[index];
+                    break;
+                }
+                case 2: {
+                    p.textContent = '🔥 Max: ' + pricesArray[index];
+                    break;
+                }
+                default: return;
+            }
+            
+        })
     })
     .catch(error => console.error(error));
 // gas tracker matic
@@ -37,8 +58,16 @@ fetch('https://api.blocknative.com/gasprices/blockprices?chainid=137')
         const maticBasePrice = gasPrices.baseFeePerGas.toFixed(2);
         const maticPriorityFee = gasPrices.estimatedPrices[1].maxPriorityFeePerGas.toFixed(2);
         const maticMaxFee = gasPrices.estimatedPrices[1].maxFeePerGas.toFixed();
-        document.getElementById('maticBaseFee').innerHTML = maticBasePrice;
-        document.getElementById('maticPriorityFee').innerHTML = maticPriorityFee;
-        document.getElementById('maticMaxFee').innerHTML = maticMaxFee;
+        const pricesArray = [maticBasePrice, maticPriorityFee, maticMaxFee];
+// select polygon prices container        
+        const polyContainer = document.querySelector('#poly-tracker__container');
+// select each paragraph except first child which is the title        
+        const polyParagraphs = polyContainer.querySelectorAll('p:not(:first-child)');
+// loop through paragraphs and add span to each with appropriate prices based on the pricesArray values        
+        polyParagraphs.forEach((p, index) => {
+            let span = document.createElement('span');
+            span.textContent = pricesArray[index];
+            p.appendChild(span);
+        })
     })
     .catch(error => console.error(error));

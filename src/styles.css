@@ -113,32 +113,3 @@ body {
 .gas-tracker__price {
     font-size: 12px;
 }
-
-/* Partner Styles */
-#partners {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-#partners > h2 {
-    font-family: sans-serif;
-    font-weight: normal;
-    color: #fff;
-    font-size: 12px;
-    align-items: center;
-    display: flex;
-}
-.partner__items {
-    display: flex;
-    align-items: center;
-}
-.partner__item {
-    text-decoration: none;
-    margin-left: 10px;
-}
-.partner__logo {
-    width: 70px;
-}
