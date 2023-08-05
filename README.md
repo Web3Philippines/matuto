@@ -22,6 +22,7 @@ It's a Filipino word which means "to learn". Which is the goal of this project, 
 
 ## 💡 How to install
 
+<!-- markdownlint-disable MD033 -->
 <details>
 <summary>Microsoft Edge</summary>
    <ol>
@@ -73,6 +74,7 @@ It's a Filipino word which means "to learn". Which is the goal of this project, 
       <img src=".github/assets/howtoinstall/brave/brave5.png"></img></li>
    </ol>
 </details>
+<!-- markdownlint-enable MD001 MD033 -->
 
 ## 📚 Documentation
 
