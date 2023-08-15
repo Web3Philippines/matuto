@@ -97,7 +97,7 @@ const glossary = [
         definition: "The Ethereum Name Service (ENS) is a decentralized naming service that allows users to register human-readable domain names for their Ethereum addresses. ENS names can be used to send and receive transactions, interact with smart contracts, and resolve decentralized websites."
     },
     {
-        term: "Ethereum Virtual Machine (EVM)",
+        term: "Ethereum Virtual Machine",
         definition: "A software application that blockchain developers use to deploy decentralized applications (Dapp) on the Ethereum blockchain. The EVM interacts with Ethereum's accounts, smart contracts, and distributed ledger."
     },
     {
