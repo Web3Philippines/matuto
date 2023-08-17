@@ -1,6 +1,6 @@
 {
   "name": "matuto-extension",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A simple chromium-based browser extension for learning web3 in every new tab.",
   "scripts": {
     "start": "parcel watch src/manifest.json --host localhost",
