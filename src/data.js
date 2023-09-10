@@ -7,6 +7,10 @@ const glossary = [
         definition: "An ABI, or Application Binary Interface, is a set of rules defining how to interact with certain software components. In the context of Ethereum, an ABI is like a blueprint that tells software how to interact with, or how to use, a specific smart contract on the blockchain. It defines the methods and structures of the smart contract so that other applications can use it correctly."
     },
     {
+        term: "Application Programming Interface (API)",
+        definition: "API is an acronym for Application Programming Interface which is an interface between computers or programs that allows information to pass between them."
+    },
+    {
         term: "Base Fee",
         definition: "The base fee is an algorithmically determined fee that users on the Ethereum blockchain must pay to complete a transaction. The base fee is designed to help smooth transaction fees and prevent sudden spikes by targeting 50% full blocks. Depending on how full the new block is, the Base Fee is automatically increased (the block is more than 50% full) or decreased (the block is less than 50% full)."
     },
@@ -143,6 +147,18 @@ const glossary = [
     {
         term: "Zero-Knowledge Proof",
         definition: "A zero-knowledge proof is a special cryptographic method where one person can prove to another that they know a secret, but without sharing any details about the secret itself. It's often used in technologies and systems like blockchain to keep data private."
+    },
+    {
+        term: "Decentralized Exchange (DEX)",
+        definition: "DEX is an abbreviation for Decentralized Exchange. This type of crypto exchange enables users to transact in a direct peer-to-peer manner without any intermediary."
+    },
+    {
+        term: "Liquidity",
+        definition: "Liquidity is how quickly and easily an asset can be converted into cash or another asset."
+    },
+    {
+        term: "Ether",
+        definition: "Ether is the primary internal cryptographic token of the Ethereum network. Ether is used to pay transaction and computation fees for Ethereum transactions."
     }
 ];
 
