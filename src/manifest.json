@@ -2,7 +2,7 @@
   "name": "Matuto | Learn web3 in every new tab",
   "description": "A simple chromium-based browser extension for learning web3 in every new tab.",
   "version": "0.1.4",
-  "author": "Web3 Philippines",
+  "author": "Web3 Philippines® Protocol",
   "icons": {
     "16": "assets/icon16.png",
     "32": "assets/icon32.png",
