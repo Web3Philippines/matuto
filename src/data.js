@@ -143,6 +143,10 @@ const glossary = [
     {
         term: "Zero-Knowledge Proof",
         definition: "A zero-knowledge proof is a special cryptographic method where one person can prove to another that they know a secret, but without sharing any details about the secret itself. It's often used in technologies and systems like blockchain to keep data private."
+    },
+    {
+        term: "Cross-Chain Communication",
+        definition: "Cross-chain communication refers to the ability of different blockchain networks to exchange data and assets seamlessly. It enables interoperability between blockchains, allowing users and applications to interact with assets and smart contracts on multiple chains, enhancing the overall functionality and utility of decentralized ecosystems."
     }
 ];
 
