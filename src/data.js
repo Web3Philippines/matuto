@@ -2,6 +2,7 @@
 // We create some of the definition and modify some definition from blocknative
 // https://www.blocknative.com/glossary
 const glossary = [
+
   {
     term: 'Application Binary Interface (ABI)',
     definition:
@@ -42,6 +43,11 @@ const glossary = [
     definition:
       "Chainlink is a decentralized oracle network that provides real-world data to smart contracts on the blockchain. Oracles are services that send data to the blockchain, which can trigger smart contract executions when predefined conditions are met. However, since blockchains can't access data outside their network, they rely on oracle services like Chainlink to provide this data.",
   },
+   {
+    term: 'Cyptography',
+    definition:
+      'A method of securing data from unauthorized access. In the blockchain, cryptography is used to secure transactions taking place between two nodes in a blockchain network. It is used to encrypt messages.',
+  },
   {
     term: 'Decentralized Autonomous Organization (DAO)',
     definition:
@@ -76,6 +82,11 @@ const glossary = [
     term: 'Gas Price',
     definition:
       "The gas price is the amount of Ether (ETH) a user is willing to pay for every unit of gas required to complete a transaction (denominated in Gwei). Blocknative's gas estimator tool can help traders and developers optimize setting gas prices to probabilistically get transactions confirmed in the next block",
+  },
+   {
+    term: 'Hashing',
+    definition:
+      'Hashing refers to the transformation and generation of input data of any length into a string of a fixed size, which is performed by a specific algorithm. In particular, the Bitcoin hash algorithm is SHA-256 or Secure Hashing Algorithm 256 bits.',
   },
   {
     term: 'Metamask',
@@ -152,12 +163,6 @@ const glossary = [
     definition:
       'A side chain is a blockchain that allows tokens from one blockchain to be securely used within a completely separate blockchain, but still move back to the original chain if necessary. Sidechains like xDai are popular because they offer distinct advantages to developers including cost savings and greater transaction speed',
   },
-  //   Smart Contract double entry
-  //     {
-  //       term: 'Smart Contract',
-  //       definition:
-  //         "A smart contract is a piece of code that executes according to it's instructions exactly like a traditional contract between two people would be executed. Smart contracts are used by developers to build decentralized applications on blockchain networks like Ethereum to enable users to permissionlessly transact in a secure way.",
-  //     },
   {
     term: 'Solidity',
     definition:
@@ -178,11 +183,7 @@ const glossary = [
     definition:
       "A zero-knowledge proof is a special cryptographic method where one person can prove to another that they know a secret, but without sharing any details about the secret itself. It's often used in technologies and systems like blockchain to keep data private.",
   },
-  {
-    term: 'Cyptography',
-    definition:
-      'A method of securing data from unauthorized access. In the blockchain, cryptography is used to secure transactions taking place between two nodes in a blockchain network. It is used to encrypt messages.',
-  },
+ 
   {
     term: 'Hashing',
     definition:
