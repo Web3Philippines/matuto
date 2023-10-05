@@ -189,6 +189,10 @@ const glossary = [
     definition:
       'Hashing refers to the transformation and generation of input data of any length into a string of a fixed size, which is performed by a specific algorithm. In particular, the Bitcoin hash algorithm is SHA-256 or Secure Hashing Algorithm 256 bits.',
   },
+  {
+    term: "Cross-Chain Communication",
+    definition: "Cross-chain communication refers to the ability of different blockchain networks to exchange data and assets seamlessly. It enables interoperability between blockchains, allowing users and applications to interact with assets and smart contracts on multiple chains, enhancing the overall functionality and utility of decentralized ecosystems."
+  },
 ];
 
 // get id of term and definition
