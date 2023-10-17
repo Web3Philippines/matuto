@@ -156,6 +156,10 @@ const glossary = [
         term: "Genesis Block",
         definition: "It is the very first block upon which additional blocks in a blockchain are added. It is effectively the ancestor that every other block can trace its lineage back to since every block references the one preceding it."
     },
+    {
+        term: "Program Derived Address (PDA)",
+        definition: "A Program Derived Address is a type of account on the Solana blockchain that is associated with and owned by a program rather than a specific user or account. PDAs allow us to create unique data associations, manage escrow balances, and handle many other trustless applications. "
+    },
     }
 ];
 
