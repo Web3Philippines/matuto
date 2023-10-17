@@ -143,6 +143,11 @@ const glossary = [
     {
         term: "Zero-Knowledge Proof",
         definition: "A zero-knowledge proof is a special cryptographic method where one person can prove to another that they know a secret, but without sharing any details about the secret itself. It's often used in technologies and systems like blockchain to keep data private."
+    },
+    {
+        term: "Interface Definition Language (IDL)",
+        definition: "In Solana programming, an Interface Definition Language (IDL) specifies a program's public interface. It defines a Solana program's account structures, instructions, and error codes. IDLs are .json files used to generate client-side code, allowing users to easily interact with a Solana program."
+    },
     }
 ];
 
