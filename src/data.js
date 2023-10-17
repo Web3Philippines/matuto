@@ -160,6 +160,10 @@ const glossary = [
         term: "Program Derived Address (PDA)",
         definition: "A Program Derived Address is a type of account on the Solana blockchain that is associated with and owned by a program rather than a specific user or account. PDAs allow us to create unique data associations, manage escrow balances, and handle many other trustless applications. "
     },
+    {
+        term: "Anchor",
+        definition: "Anchor is a framework for quickly building secure Solana programs."
+    },  
     }
 ];
 
