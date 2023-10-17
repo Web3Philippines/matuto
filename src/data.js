@@ -164,6 +164,9 @@ const glossary = [
         term: "Anchor",
         definition: "Anchor is a framework for quickly building secure Solana programs."
     },  
+    {
+        term: "Accounts (Solana)",
+        definition: "Solana accounts can be thought of as storage buckets, capable of holding every data type: from tokens such as SOL to a program’s state variables (e.g. integers, strings, public keys), and even entire programs themselves. Every account has a specified owner, and a single owner can own many different accounts."
     }
 ];
 
