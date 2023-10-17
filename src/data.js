@@ -152,6 +152,10 @@ const glossary = [
         term: "Solana Program Library (SPL)",
         definition: "It is a collection of programs designed to support the creation and management of tokens on Solana. SPL tokens are similar to ERC-20 tokens on the Ethereum blockchain, as they follow a specific standard for creating, transferring, and managing custom tokens."
     },
+    {
+        term: "Genesis Block",
+        definition: "It is the very first block upon which additional blocks in a blockchain are added. It is effectively the ancestor that every other block can trace its lineage back to since every block references the one preceding it."
+    },
     }
 ];
 
