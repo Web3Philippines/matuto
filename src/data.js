@@ -148,6 +148,10 @@ const glossary = [
         term: "Interface Definition Language (IDL)",
         definition: "In Solana programming, an Interface Definition Language (IDL) specifies a program's public interface. It defines a Solana program's account structures, instructions, and error codes. IDLs are .json files used to generate client-side code, allowing users to easily interact with a Solana program."
     },
+    {
+        term: "Solana Program Library (SPL)",
+        definition: "It is a collection of programs designed to support the creation and management of tokens on Solana. SPL tokens are similar to ERC-20 tokens on the Ethereum blockchain, as they follow a specific standard for creating, transferring, and managing custom tokens."
+    },
     }
 ];
 
