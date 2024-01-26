@@ -7,6 +7,14 @@ body {
     left: 10px;
     width: 125px;
 }
+#version-info {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #fff;
+}
 .nav {
     position: absolute;
     top: 0;
@@ -36,7 +44,7 @@ body {
     font-family: sans-serif;
     color: #fff;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     margin: 0 0 15px 0;
 }
 #glossary .glossary__container {

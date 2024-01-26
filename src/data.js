@@ -3,12 +3,12 @@
 // https://www.blocknative.com/glossary
 const glossary = [
   {
-    term: 'Application Binary Interface (ABI)',
+    term: 'ABI (Application Binary Interface)',
     definition:
       'An ABI, or Application Binary Interface, is a set of rules defining how to interact with certain software components. In the context of Ethereum, an ABI is like a blueprint that tells software how to interact with, or how to use, a specific smart contract on the blockchain. It defines the methods and structures of the smart contract so that other applications can use it correctly.',
   },
   {
-    term: "Application Programming Interface (API)",
+    term: "API (Application Programming Interface)",
     definition: "API is an acronym for Application Programming Interface which is an interface between computers or programs that allows information to pass between them."
   },
   {
@@ -22,12 +22,12 @@ const glossary = [
       'A blockchain is a distributed database that is shared among the nodes of a computer network. Blockchains store a continuously growing historical ledger of information (e.g. accounts and transactions) into blocks.',
   },
   {
-    term: 'Decentralized Application (DApp)',
+    term: 'DApp (Decentralized Application)',
     definition:
       'A decentralized application, is an application built on a decentralized blockchain network using smart contracts and Web 3.0 javascript libraries. Examples for Dapps include web3 wallets, interest-bearing cryptocurrency savings accounts, and NFT marketplaces.',
   },
   {
-    term: 'Decentralized Exchange (DEX)',
+    term: 'DEX (Decentralized Exchange)',
     definition:
       'DEX is an abbreviation for Decentralized Exchange. This type of crypto exchange enables users to transact in a direct peer-to-peer manner without any intermediary.',
   },
@@ -46,18 +46,18 @@ const glossary = [
     definition:
       "Chainlink is a decentralized oracle network that provides real-world data to smart contracts on the blockchain. Oracles are services that send data to the blockchain, which can trigger smart contract executions when predefined conditions are met. However, since blockchains can't access data outside their network, they rely on oracle services like Chainlink to provide this data.",
   },
-   {
+  {
     term: 'Cyptography',
     definition:
       'A method of securing data from unauthorized access. In the blockchain, cryptography is used to secure transactions taking place between two nodes in a blockchain network. It is used to encrypt messages.',
   },
   {
-    term: 'Decentralized Autonomous Organization (DAO)',
+    term: 'DAO (Decentralized Autonomous Organization)',
     definition:
       "A DAO, or Decentralized Autonomous Organization, is like a virtual company or club that is run by rules encoded as computer programs called smart contracts. These rules are made and changed based on the votes of its members. The main point is that no single person is in charge, rather it's collectively run by its members, and everything happens automatically according to the programmed rules.",
   },
   {
-    term: 'Decentralized Finance (DeFi)',
+    term: 'DeFi (Decentralized Finance)',
     definition:
       'Decentralized finance (DeFi) is a blockchain-based form of finance that does not rely on central financial intermediaries such as brokerages, exchanges, or banks to offer traditional financial instruments, and instead utilizes smart contracts on blockchains, the most common being Ethereum.',
   },
@@ -86,7 +86,7 @@ const glossary = [
     definition:
       "The gas price is the amount of Ether (ETH) a user is willing to pay for every unit of gas required to complete a transaction (denominated in Gwei). Blocknative's gas estimator tool can help traders and developers optimize setting gas prices to probabilistically get transactions confirmed in the next block",
   },
-   {
+  {
     term: 'Hashing',
     definition:
       'Hashing refers to the transformation and generation of input data of any length into a string of a fixed size, which is performed by a specific algorithm. In particular, the Bitcoin hash algorithm is SHA-256 or Secure Hashing Algorithm 256 bits.',
@@ -112,9 +112,9 @@ const glossary = [
       'ERC-4907 is a proposed Ethereum standard that extends ERC-721 to introduce "owner" and "user" roles. It streamlines NFT rentals with an automated "expires" function that enforces time-limited user roles, ending usage terms automatically without a second transaction.',
   },
   {
-    term: 'ERC-6551 (Non-fungible Token Bound Accounts)',
+    term: 'ERC-6551 (Token Bound Accounts)',
     definition:
-      'ERC-6551 is a new token standard for non-fungible tokens (NFTs) that enhances the functionality and value of NFTs by giving them smart contract capabilities. It suggests creating a dedicated cryptocurrency wallet for each ERC-721 token, effectively transforming NFTs into Token Bound Accounts (TBAs). With smart contract capabilities, NFTs can now hold other assets, interact with smart contracts, and have their own on-chain identity.',
+      'ERC-6551 is a token standard for non-fungible tokens (NFTs) that enhances the functionality and value of NFTs by giving them smart contract capabilities. It suggests creating a dedicated cryptocurrency wallet for each ERC-721 token, effectively transforming NFTs into Token Bound Accounts (TBAs). With smart contract capabilities, NFTs can now hold other assets, interact with smart contracts, and have their own on-chain identity.',
   },
   {
     term: 'ERC-721 (Non-fungible Token)',
@@ -127,12 +127,12 @@ const glossary = [
       "A decentralized, open-source blockchain network that was launched in 2015 by its founder, Vitalik Buterin. Ethereum is the leading smart contract-enabled blockchain in the world, and it's native token, ETH, is the 2nd largest digital asset by marketcap. Blocknative's APIs support the Ethereum blockchain and the Ethereum Goerli testnet.",
   },
   {
-    term: 'Ethereum Name Service (ENS)',
+    term: 'ENS (Ethereum Name Service)',
     definition:
       'The Ethereum Name Service (ENS) is a decentralized naming service that allows users to register human-readable domain names for their Ethereum addresses. ENS names can be used to send and receive transactions, interact with smart contracts, and resolve decentralized websites.',
   },
   {
-    term: 'Ethereum Virtual Machine (EVM)',
+    term: 'EVM (Ethereum Virtual Machine)',
     definition:
       "A software application that blockchain developers use to deploy decentralized applications (Dapp) on the Ethereum blockchain. The EVM interacts with Ethereum's accounts, smart contracts, and distributed ledger.",
   },
@@ -157,7 +157,7 @@ const glossary = [
       'A metaverse is an engaging digital universe, fueled by Web3 principles. It utilizes blockchain for decentralized, real-time interaction, enabling users to own digital assets, control their data, and enjoy a boundary-defying internet experience.',
   },
   {
-    term: 'Non-Fungible Token (NFT)',
+    term: 'NFT (Non-Fungible Token)',
     definition:
       'A non-fungible token (NFT) is a unique digital asset that is stored on a blockchain. NFTs are used to represent real-world items like art, music, in-game items, and videos.',
   },
@@ -196,7 +196,7 @@ const glossary = [
     definition: "Cross-chain communication refers to the ability of different blockchain networks to exchange data and assets seamlessly. It enables interoperability between blockchains, allowing users and applications to interact with assets and smart contracts on multiple chains, enhancing the overall functionality and utility of decentralized ecosystems."
   },
   {
-    term: "Decentralized Exchange (DEX)",
+    term: "DEX (Decentralized Exchange)",
     definition: "DEX is an abbreviation for Decentralized Exchange. This type of crypto exchange enables users to transact in a direct peer-to-peer manner without any intermediary."
   },
   {
@@ -208,11 +208,11 @@ const glossary = [
     definition: "Ether is the primary internal cryptographic token of the Ethereum network. Ether is used to pay transaction and computation fees for Ethereum transactions."
   },
   {
-      term: "Interface Definition Language (IDL)",
+      term: "IDL (Interface Definition Language)",
       definition: "In Solana programming, an Interface Definition Language (IDL) specifies a program's public interface. It defines a Solana program's account structures, instructions, and error codes. IDLs are .json files used to generate client-side code, allowing users to easily interact with a Solana program."
   },
   {
-      term: "Solana Program Library (SPL)",
+      term: "SPL (Solana Program Library)",
       definition: "It is a collection of programs designed to support the creation and management of tokens on Solana. SPL tokens are similar to ERC-20 tokens on the Ethereum blockchain, as they follow a specific standard for creating, transferring, and managing custom tokens."
   },
   {
@@ -220,7 +220,7 @@ const glossary = [
       definition: "It is the very first block upon which additional blocks in a blockchain are added. It is effectively the ancestor that every other block can trace its lineage back to since every block references the one preceding it."
   },
   {
-      term: "Program Derived Address (PDA)",
+      term: "PDA (Program Derived Address)",
       definition: "A Program Derived Address is a type of account on the Solana blockchain that is associated with and owned by a program rather than a specific user or account. PDAs allow us to create unique data associations, manage escrow balances, and handle many other trustless applications. "
   },
   {
@@ -265,4 +265,3 @@ definition.innerHTML = randomDefinition.definition;
 // set term and definition to random term and definition
 term.innerHTML = randomTerm.term;
 definition.innerHTML = randomTerm.definition;
-
