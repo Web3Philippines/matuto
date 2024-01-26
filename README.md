@@ -128,10 +128,10 @@ This project is licensed under [GNU General Public License v3](https://opensourc
 
 ## 📝 Author
 
-This project is developed and maintained by [Web3 Philippines](https://web3philippines.org) and [Open Source Software Philippines](https://ossph.org) with the help of awesome [contributors](https://github.com/web3phl/matuto/graphs/contributors).
+This project is developed and maintained by [Web3 Philippines® Developers](https://web3philippines.org) and [Open Source Software Philippines](https://ossph.org) with the help of awesome [contributors](https://github.com/web3phl/matuto/graphs/contributors).
 
 [![contributors](https://contrib.rocks/image?repo=web3phl/matuto)](https://github.com/web3phl/matuto/graphs/contributors)
 
 ---
 
-Made 💻 with 💖 by [Web3 Philippines](https://web3philippines.org) and [Open Source Software Philippines](https://ossph.org) 💜💙
+Made 💻 with 💖 by [Web3 Philippines® Developers](https://web3philippines.org) and [Open Source Software Philippines](https://ossph.org) 💜💙
