@@ -2,11 +2,14 @@
 // We create some of the definition and modify some definition from blocknative
 // https://www.blocknative.com/glossary
 const glossary = [
-
   {
     term: 'Application Binary Interface (ABI)',
     definition:
       'An ABI, or Application Binary Interface, is a set of rules defining how to interact with certain software components. In the context of Ethereum, an ABI is like a blueprint that tells software how to interact with, or how to use, a specific smart contract on the blockchain. It defines the methods and structures of the smart contract so that other applications can use it correctly.',
+  },
+  {
+    term: "Application Programming Interface (API)",
+    definition: "API is an acronym for Application Programming Interface which is an interface between computers or programs that allows information to pass between them."
   },
   {
     term: 'Base Fee',
@@ -193,6 +196,18 @@ const glossary = [
     term: "Cross-Chain Communication",
     definition: "Cross-chain communication refers to the ability of different blockchain networks to exchange data and assets seamlessly. It enables interoperability between blockchains, allowing users and applications to interact with assets and smart contracts on multiple chains, enhancing the overall functionality and utility of decentralized ecosystems."
   },
+  {
+    term: "Decentralized Exchange (DEX)",
+    definition: "DEX is an abbreviation for Decentralized Exchange. This type of crypto exchange enables users to transact in a direct peer-to-peer manner without any intermediary."
+  },
+  {
+    term: "Liquidity",
+    definition: "Liquidity is how quickly and easily an asset can be converted into cash or another asset."
+  },
+  {
+    term: "Ether",
+    definition: "Ether is the primary internal cryptographic token of the Ethereum network. Ether is used to pay transaction and computation fees for Ethereum transactions."
+  }
 ];
 
 // get id of term and definition
@@ -227,3 +242,4 @@ definition.innerHTML = randomDefinition.definition;
 // set term and definition to random term and definition
 term.innerHTML = randomTerm.term;
 definition.innerHTML = randomTerm.definition;
+
