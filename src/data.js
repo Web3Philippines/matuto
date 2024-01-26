@@ -186,7 +186,6 @@ const glossary = [
     definition:
       "A zero-knowledge proof is a special cryptographic method where one person can prove to another that they know a secret, but without sharing any details about the secret itself. It's often used in technologies and systems like blockchain to keep data private.",
   },
- 
   {
     term: 'Hashing',
     definition:
@@ -207,6 +206,30 @@ const glossary = [
   {
     term: "Ether",
     definition: "Ether is the primary internal cryptographic token of the Ethereum network. Ether is used to pay transaction and computation fees for Ethereum transactions."
+  },
+  {
+      term: "Interface Definition Language (IDL)",
+      definition: "In Solana programming, an Interface Definition Language (IDL) specifies a program's public interface. It defines a Solana program's account structures, instructions, and error codes. IDLs are .json files used to generate client-side code, allowing users to easily interact with a Solana program."
+  },
+  {
+      term: "Solana Program Library (SPL)",
+      definition: "It is a collection of programs designed to support the creation and management of tokens on Solana. SPL tokens are similar to ERC-20 tokens on the Ethereum blockchain, as they follow a specific standard for creating, transferring, and managing custom tokens."
+  },
+  {
+      term: "Genesis Block",
+      definition: "It is the very first block upon which additional blocks in a blockchain are added. It is effectively the ancestor that every other block can trace its lineage back to since every block references the one preceding it."
+  },
+  {
+      term: "Program Derived Address (PDA)",
+      definition: "A Program Derived Address is a type of account on the Solana blockchain that is associated with and owned by a program rather than a specific user or account. PDAs allow us to create unique data associations, manage escrow balances, and handle many other trustless applications. "
+  },
+  {
+      term: "Anchor",
+      definition: "Anchor is a framework for quickly building secure Solana programs."
+  },  
+  {
+      term: "Accounts (Solana)",
+      definition: "Solana accounts can be thought of as storage buckets, capable of holding every data type: from tokens such as SOL to a program’s state variables (e.g. integers, strings, public keys), and even entire programs themselves. Every account has a specified owner, and a single owner can own many different accounts."
   }
 ];
 
